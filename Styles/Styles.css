@@ -6,8 +6,10 @@
     outline: none;
 }
 body{
-
     background-color: rgb(247, 255, 255);
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 header{
     margin-top: 100px;
