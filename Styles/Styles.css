@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+
+    background-color: rgb(247, 255, 255);
+}
+header{
+    margin-top: 100px;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.logoschool{
+    width: 488.16px; height: 179.57px; 
+    left: 0px; top: 0px; 
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 16.780338287353516px 7.6274261474609375px 21.356794357299805px rgba(70.87, 195.50, 75.85, 0.25); 
+    border-radius: 19.83px;
+}
+.logoschool img{
+    width: 130px; height: 167px; left: 2px; top: 5px; position: absolute;
+}
+.logoschool h1{
+    color: #45BE43;
+    font-family: Kh Muol ;
+    position: absolute;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400; word-wrap: break-word;
+    width: 273px; height: 61px; 
+    left: 150px; top: 24px;
+}
+.logoschool h2{
+    width: 352px; height: 33px; left: 148px; top: 106px;
+    position: absolute; 
+    color: #45BE43; 
+    font-size: 24.41px; font-family: Roboto; font-weight: 700; 
+    word-wrap: break-word;
+}
+
+
+.container{
+    border:2px solid black;
+    width: 500px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+.container h1{
+    font-family: Khmer OS Content-Kh Auto ;
+    font-size: 100%;
+    color: #45BE43;
+    padding: 10px 0px 15px;
+
+}
+.input{
+    width: 100%;
+}
+.input input{
+    padding: 1rem;
+    width: 100%;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+}
+
+.input input::placeholder{
+    color: black;
+}
+
+.login-btn{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px ;
+    background-color: transparent;
+    color: black;
+}
+
+.login-btn:hover{
+    color: aqua;
+
+}
+.help{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+#rmbr-me{
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+
+.help a{
+    font-size: 20px;
+    color: black;
+}
+
+.register{
+    color: black;
+    font-size: 22px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(21, 214, 198);
+}
+
